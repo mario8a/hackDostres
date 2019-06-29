@@ -4,7 +4,7 @@
             "outputFile": "/home/mario8a/Escritorio/UnDosTres/hackDostres/Framework/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "/home/mario8a/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0021d8111baafa41db5fcddfb479c75c/res/values-ro/values-ro.xml",
+                    "source": "/home/mario8a/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d3c482b2648eaf97e8d694ae2c749042/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

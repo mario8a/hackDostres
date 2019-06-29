@@ -79,11 +79,7 @@ module.exports = "<ion-header>\n    <ion-toolbar color=\"primary\">\n      <ion-
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-<<<<<<< HEAD
 module.exports = "agm-map {\n  height: 100%; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL21hcmlvOGEvRXNjcml0b3Jpby9VbkRvc1RyZXMvaGFja0Rvc3RyZXMvRnJhbWV3b3JrL3NyYy9hcHAvdGFicy90YWIyL3RhYjIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBWSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvdGFicy90YWIyL3RhYjIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYWdtLW1hcCB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICB9Il19 */"
-=======
-module.exports = "agm-map {\n  height: 100%; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXVyaWNpby9pb25pYy9oYWNrRG9zdHJlcy9GcmFtZXdvcmsvc3JjL2FwcC90YWJzL3RhYjIvdGFiMi5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFZLEVBQUEiLCJmaWxlIjoic3JjL2FwcC90YWJzL3RhYjIvdGFiMi5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJhZ20tbWFwIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gIH0iXX0= */"
->>>>>>> cba3f73e4da7f7da5e14bb922f43dcb9b82e5156
 
 /***/ }),
 
