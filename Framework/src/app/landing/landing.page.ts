@@ -14,7 +14,7 @@ export class LandingPage implements OnInit {
 
   constructor(private nfc: NFC, private ndef: Ndef, public toastController: ToastController) { }
 
-  ngOnInit() {    
+  ngOnInit() {
   }
 
   nfclick() {
