@@ -1,0 +1,4 @@
+#Sat Jun 29 16:47:56 CDT 2019
+base.0=/home/mario8a/Escritorio/UnDosTres/hackDostres/Framework/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
