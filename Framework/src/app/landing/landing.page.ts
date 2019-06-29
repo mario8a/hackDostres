@@ -10,9 +10,11 @@ import { NFC, Ndef } from '@ionic-native/nfc/ngx';
 export class LandingPage implements OnInit {
   tagId: string;
 
+  // // tagId: any;
+
   constructor(private nfc: NFC, private ndef: Ndef, public toastController: ToastController) { }
 
-  ngOnInit() {    
+  ngOnInit() {
   }
 
   nfclick() {
