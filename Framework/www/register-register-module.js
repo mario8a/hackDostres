@@ -74,7 +74,11 @@ module.exports = "<ion-content padding class=\"form-content\">\n\n  <div text-ce
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = ".error-message {\n  color: var(--ion-color-danger); }\n\n.success-message {\n  color: var(--ion-color-success); }\n\n.go-to-login {\n  text-align: center;\n  margin-top: 20px; }\n\n.submit-btn {\n  margin-top: 40px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL21hcmlvOGEvRXNjcml0b3Jpby9VbkRvc1RyZXMvaGFja0Rvc3RyZXMvRnJhbWV3b3JrL3NyYy9hcHAvcmVnaXN0ZXIvcmVnaXN0ZXIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsOEJBQThCLEVBQUE7O0FBR2hDO0VBRUUsK0JBQStCLEVBQUE7O0FBR2pDO0VBRUUsa0JBQWtCO0VBQ2xCLGdCQUFnQixFQUFBOztBQUdsQjtFQUVFLGdCQUFnQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcmVnaXN0ZXIvcmVnaXN0ZXIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmVycm9yLW1lc3NhZ2VcbntcbiAgY29sb3I6IHZhcigtLWlvbi1jb2xvci1kYW5nZXIpO1xufVxuXG4uc3VjY2Vzcy1tZXNzYWdlXG57XG4gIGNvbG9yOiB2YXIoLS1pb24tY29sb3Itc3VjY2Vzcyk7XG59XG5cbi5nby10by1sb2dpblxue1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG59XG5cbi5zdWJtaXQtYnRuXG57XG4gIG1hcmdpbi10b3A6IDQwcHg7XG59XG4iXX0= */"
+=======
+module.exports = ".error-message {\n  color: var(--ion-color-danger); }\n\n.success-message {\n  color: var(--ion-color-success); }\n\n.go-to-login {\n  text-align: center;\n  margin-top: 20px; }\n\n.submit-btn {\n  margin-top: 40px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXVyaWNpby9pb25pYy9oYWNrRG9zdHJlcy9GcmFtZXdvcmsvc3JjL2FwcC9yZWdpc3Rlci9yZWdpc3Rlci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFRSw4QkFBOEIsRUFBQTs7QUFHaEM7RUFFRSwrQkFBK0IsRUFBQTs7QUFHakM7RUFFRSxrQkFBa0I7RUFDbEIsZ0JBQWdCLEVBQUE7O0FBR2xCO0VBRUUsZ0JBQWdCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9yZWdpc3Rlci9yZWdpc3Rlci5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXJyb3ItbWVzc2FnZVxue1xuICBjb2xvcjogdmFyKC0taW9uLWNvbG9yLWRhbmdlcik7XG59XG5cbi5zdWNjZXNzLW1lc3NhZ2VcbntcbiAgY29sb3I6IHZhcigtLWlvbi1jb2xvci1zdWNjZXNzKTtcbn1cblxuLmdvLXRvLWxvZ2luXG57XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cblxuLnN1Ym1pdC1idG5cbntcbiAgbWFyZ2luLXRvcDogNDBweDtcbn1cbiJdfQ== */"
+>>>>>>> cba3f73e4da7f7da5e14bb922f43dcb9b82e5156
 
 /***/ }),
 

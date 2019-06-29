@@ -19,6 +19,7 @@
  *
 */
 
+<<<<<<< HEAD
 // The last resume event that was received that had the result of a plugin call.
 var lastResumeEvent = null;
 
@@ -123,3 +124,15 @@ function onMessageFromNative(msg) {
             throw new Error('Unknown event action ' + action);
     }
 }
+=======
+module.exports = {
+    id: 'ios',
+    bootstrap: function () {
+        // Attach the console polyfill that is iOS-only to window.console
+        // see the file under plugin/ios/console.js
+        require('cordova/modulemapper').clobbers('cordova/plugin/ios/console', 'window.console');
+
+        require('cordova/channel').onNativeReady.fire();
+    }
+};
+>>>>>>> cba3f73e4da7f7da5e14bb922f43dcb9b82e5156

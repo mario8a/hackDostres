@@ -55,6 +55,12 @@ module.exports = [
     "clobbers": [
       "window.StatusBar"
     ]
+  },
+  {
+    "id": "phonegap-nfc.NFC",
+    "file": "plugins/phonegap-nfc/www/phonegap-nfc.js",
+    "pluginId": "phonegap-nfc",
+    "runs": true
   }
 ];
 module.exports.metadata = 
@@ -66,7 +72,8 @@ module.exports.metadata =
   "cordova-plugin-ionic-webview": "2.4.0",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-statusbar": "2.4.2",
-  "cordova-plugin-whitelist": "1.3.3"
+  "cordova-plugin-whitelist": "1.3.3",
+  "phonegap-nfc": "1.0.3"
 };
 // BOTTOM OF METADATA
 });

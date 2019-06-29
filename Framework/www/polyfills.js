@@ -5796,8 +5796,13 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(/*! /home/mario8a/Escritorio/UnDosTres/hackDostres/Framework/src/polyfills.ts */"./src/polyfills.ts");
 module.exports = __webpack_require__(/*! /home/mario8a/Escritorio/UnDosTres/hackDostres/Framework/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+=======
+__webpack_require__(/*! /Users/mauricio/ionic/hackDostres/Framework/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/mauricio/ionic/hackDostres/Framework/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+>>>>>>> cba3f73e4da7f7da5e14bb922f43dcb9b82e5156
 
 
 /***/ })

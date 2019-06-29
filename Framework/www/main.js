@@ -1519,7 +1519,11 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! /home/mario8a/Escritorio/UnDosTres/hackDostres/Framework/src/main.ts */"./src/main.ts");
+=======
+module.exports = __webpack_require__(/*! /Users/mauricio/ionic/hackDostres/Framework/src/main.ts */"./src/main.ts");
+>>>>>>> cba3f73e4da7f7da5e14bb922f43dcb9b82e5156
 
 
 /***/ })
