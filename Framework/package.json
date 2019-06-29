@@ -39,6 +39,7 @@
         "core-js": "^2.5.4",
         "firebase": "^5.7.0",
         "nativescript-nfc": "^4.0.0",
+        "phonegap-nfc": "^1.0.3",
         "rxjs": "~6.3.3",
         "web": "0.0.2",
         "zone.js": "~0.8.29"
@@ -73,7 +74,10 @@
             },
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-statusbar": {},
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "phonegap-nfc": {
+                "NFC_USAGE_DESCRIPTION": "Read NFC Tags"
+            }
         },
         "platforms": [
             "android",

@@ -12,18 +12,24 @@ export class LandingPage implements OnInit {
 
   constructor(private nfc: NFC, private ndef: Ndef, public toastController: ToastController) { }
 
-  ngOnInit() {
-    this.nfc.addNdefListener(() => {
-      alert('successfully attached ndef listener');
-    }, (err) => {
-      alert('error attaching ndef listener', err);
-    }).subscribe((event) => {
-      console.log('received ndef message. the tag contains: ', event.tag);
-      console.log('decoded tag id', this.nfc.bytesToHexString(event.tag.id));
-    
-      let message = this.ndef.textRecord('Hello world');
-      this.nfc.share([message]).then(onSuccess).catch(onError);
-    });
-    
+  ngOnInit() {    
+  }
+
+  nfclick() {
+
+    this.nfc.beginSession().subscribe(res => {
+      this.nfc.addNdefListener(() => {
+        alert('successfully attached ndef listener');
+      }, (err) => {
+        console.log('error attaching ndef listener', err);
+        alert(('error attaching ndef listener' + err));
+      }).subscribe((event) => {
+        console.log('received ndef message. the tag contains: ', event.tag);
+        console.log('decoded tag id', this.nfc.bytesToHexString(event.tag.id));
+      });
+    },
+      err => {
+      console.log(err);
+      });
   }
 }
