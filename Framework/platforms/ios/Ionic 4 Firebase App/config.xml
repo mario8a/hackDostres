@@ -19,32 +19,6 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="ImagePicker">
-        <param name="ios-package" value="SOSPicker" />
-    </feature>
-    <feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
-    </feature>
-    <feature name="Keyboard">
-        <param name="ios-package" onload="true" value="CDVIonicKeyboard" />
-    </feature>
-    <allow-navigation href="http://localhost:8080/*" />
-    <allow-navigation href="http://127.0.0.1:8080/*" />
-    <allow-navigation href="ionic://*" />
-    <feature name="IonicWebView">
-        <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
-    <feature name="SplashScreen">
-        <param name="ios-package" value="CDVSplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="NfcPlugin">
-        <param name="ios-package" value="NfcPlugin" />
-    </feature>
     <name>Ionic 4 Firebase App</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="https://ionicthemes.com/">IonicThemes Team</author>
@@ -56,6 +30,23 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <js-module name="NFC" src="www/phonegap-nfc.js">
+        <runs />
+    </js-module>
+    <config-file parent="/*" target="config.xml">
+    </config-file>
+    <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Debug.plist">
+        <array>
+            <string>NDEF</string>
+        </array>
+    </config-file>
+    <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Release.plist">
+        <array>
+            <string>NDEF</string>
+        </array>
+    </config-file>
+    <header-file src="src/ios/NfcPlugin.h" />
+    <source-file src="src/ios/NfcPlugin.m" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <icon height="57" src="resources/ios/icon/icon.png" width="57" />
@@ -103,9 +94,6 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="SplashMaintainAspectRatio" value="true" />
@@ -113,4 +101,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <feature name="NfcPlugin">
+        <param name="ios-package" value="NfcPlugin" />
+    </feature>
 </widget>

@@ -67,8 +67,8 @@
 		F442EDAC0E604B56B8C804B6 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0546169A3C4D0993C3405B /* GCDWebServerResponse.m */; };
 		F5C12A52D1C24F83BA8136FC /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1082AF7B6EC7441E91C5D18C /* it.lproj */; };
 		FA4D8A7CA79E439CBE8F119D /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C0E8557FB49E58E76924C /* GCDWebServerConnection.m */; };
-		32F630BD46074C35BABEF136 /* NfcPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3876C8400461CB4EE492F /* NfcPlugin.m */; };
-		8276E2CEE28F4F8688B15E07 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6912774AFE064DCB9062DB86 /* CoreNFC.framework */; };
+		5DB60871C5B14329880CF44E /* NfcPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1752CBC914FEBAD40D66C /* NfcPlugin.m */; };
+		D04DB80C6D6445F89B5B6236 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6BF9FEE1FD4514B01A4E6D /* CoreNFC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,9 +204,9 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Ionic 4 Firebase App/config.xml"; sourceTree = "<group>"; };
 		FF23BE0199554C00AF755997 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerStreamedResponse.m"; sourceTree = "<group>"; };
 		FFA1A2189CBA44CBA7B5F2A8 /* de.lproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = de.lproj; sourceTree = "<group>"; };
-		FBC3876C8400461CB4EE492F /* NfcPlugin.m */ = {isa = PBXFileReference; name = "NfcPlugin.m"; path = "phonegap-nfc/NfcPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		497963B39A6C493BB8168243 /* NfcPlugin.h */ = {isa = PBXFileReference; name = "NfcPlugin.h"; path = "phonegap-nfc/NfcPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6912774AFE064DCB9062DB86 /* CoreNFC.framework */ = {isa = PBXFileReference; name = "CoreNFC.framework"; path = "System/Library/Frameworks/CoreNFC.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D9D1752CBC914FEBAD40D66C /* NfcPlugin.m */ = {isa = PBXFileReference; name = "NfcPlugin.m"; path = "phonegap-nfc/NfcPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E120EFFC2466462AAA72650C /* NfcPlugin.h */ = {isa = PBXFileReference; name = "NfcPlugin.h"; path = "phonegap-nfc/NfcPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FB6BF9FEE1FD4514B01A4E6D /* CoreNFC.framework */ = {isa = PBXFileReference; name = "CoreNFC.framework"; path = "System/Library/Frameworks/CoreNFC.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,7 +222,7 @@
 				5C943C7368CF46DEBF4A327B /* QuartzCore.framework in Frameworks */,
 				6628B65F724F465DAFF0325F /* WebKit.framework in Frameworks */,
 				B728CFFA120E4BB68611BF31 /* libz.tbd in Frameworks */,
-				8276E2CEE28F4F8688B15E07 /* CoreNFC.framework in Frameworks */,
+				D04DB80C6D6445F89B5B6236 /* CoreNFC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 				CF222F59FB0340E4B21871A8 /* QuartzCore.framework */,
 				E6E47AF8D7F64FB0B64900FB /* WebKit.framework */,
 				10729682202C416EAF1FDD40 /* libz.tbd */,
-				6912774AFE064DCB9062DB86 /* CoreNFC.framework */,
+				FB6BF9FEE1FD4514B01A4E6D /* CoreNFC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,8 +408,8 @@
 				3E8118AC75F146A28D0F5620 /* CDVViewController+SplashScreen.h */,
 				6D544325B65C422480E82B68 /* CDVStatusBar.m */,
 				38C28185C928497FA27AF810 /* CDVStatusBar.h */,
-				FBC3876C8400461CB4EE492F /* NfcPlugin.m */,
-				497963B39A6C493BB8168243 /* NfcPlugin.h */,
+				D9D1752CBC914FEBAD40D66C /* NfcPlugin.m */,
+				E120EFFC2466462AAA72650C /* NfcPlugin.h */,
 			);
 			name = Plugins;
 			path = "Ionic 4 Firebase App/Plugins";
@@ -585,7 +585,7 @@
 				E4B2824B6FFF469CA69D99C3 /* CDVSplashScreen.m in Sources */,
 				2F56F7989CA04B5C8C82E8CA /* CDVViewController+SplashScreen.m in Sources */,
 				C7ED2579762740B09405E23A /* CDVStatusBar.m in Sources */,
-				32F630BD46074C35BABEF136 /* NfcPlugin.m in Sources */,
+				5DB60871C5B14329880CF44E /* NfcPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

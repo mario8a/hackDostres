@@ -48,9 +48,26 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
-        <feature name="Camera">
-            <param name="ios-package" value="CDVCamera" />
-        </feature>
+        <js-module name="NFC" src="www/phonegap-nfc.js">
+            <runs />
+        </js-module>
+        <config-file parent="/*" target="config.xml">
+            <feature name="NfcPlugin">
+                <param name="ios-package" value="NfcPlugin" />
+            </feature>
+        </config-file>
+        <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Debug.plist">
+            <array>
+                <string>NDEF</string>
+            </array>
+        </config-file>
+        <config-file parent="com.apple.developer.nfc.readersession.formats" platform="ios" target="*-Release.plist">
+            <array>
+                <string>NDEF</string>
+            </array>
+        </config-file>
+        <header-file src="src/ios/NfcPlugin.h" />
+        <source-file src="src/ios/NfcPlugin.m" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <icon height="57" src="resources/ios/icon/icon.png" width="57" />
